@@ -1,8 +1,8 @@
 const CACHE_NAME = "agenda-gatuna-v1";
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/manifest.json"
+  "./",
+  "./index.html",
+  "./manifest.json"
 ];
 
 // INSTALAR
@@ -37,3 +37,4 @@ self.addEventListener("fetch", event => {
     })
   );
 });
+
